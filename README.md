@@ -1,4 +1,4 @@
-# EETS-Net
+# CRNS-NET
 The codes for the work "CRNS: CLIP-Driven Referring Nuclei Segmentation". 
 Thanks to TransNeXt for publishing the excellent code。
 ## 1. Download pre-trained TransNeXt model (TransNeXt-Base)
