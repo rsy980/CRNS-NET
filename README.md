@@ -18,7 +18,7 @@ Thanks to TransNeXt for publishing the excellent code。
 
 ## 4. Train/Test
 
-- The code for training (train.py) and validation (test.py) can be obtained from the following link: (https://github.com/HuCaoFighting/Swin-Unet) (thanks to Swin-Unet for providing high-quality code). Only need to replace the data loading section with utils/getDataset.py to make the necessary adjustments.
+- The code for training (train.py) and validation (test.py) can be obtained from the following link: (https://github.com/HuCaoFighting/Swin-Unet) (thanks to Swin-Unet for providing high-quality code). Only need to replace the data loading section with utils/get_datasets.py to make the necessary adjustments.
 
 - The batch size we used is 8.  Our test found that batch_size has little effect on the final result. You can modify the value of batch_size according to the size of GPU memory.
 
