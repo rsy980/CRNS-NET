@@ -8,7 +8,7 @@ Thanks to TransNeXt for publishing the excellent code。
 
 - The two public datasets we used, CPM-17 and MoNuSeg, are available from the links below.  (https://drive.google.com/drive/folders/1l55cv3DuY-f7-JotDN7N5nbNnjbLWchK) and (https://monuseg.grand-challenge.org/Data/). 
 
-- For the method of retrieving the text branch, please refer to utils/getText.
+- For the method of retrieving the text branch, please refer to utils/getText.py.
 
 ## 3. Environment
 
@@ -17,6 +17,8 @@ Thanks to TransNeXt for publishing the excellent code。
 - For TransNext environment dependencies, based on this link (https://github.com/DaiShiResearch/TransNeXt).
 
 ## 4. Train/Test
+
+- The code for training (train.py) and validation (test.py) can be obtained from the following link: (https://github.com/HuCaoFighting/Swin-Unet) (thanks to Swin-Unet for providing high-quality code). Only need to replace the data loading section with utils/getDataset.py to make the necessary adjustments.
 
 - The batch size we used is 8.  Our test found that batch_size has little effect on the final result. You can modify the value of batch_size according to the size of GPU memory.
 
